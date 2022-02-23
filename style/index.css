@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+:root {
+    --bg-text-color: white;
+    --bg-line-color: rgb(242, 64, 64);
+}
+
+body {
+    background-image: url('../img/home/home_bg.jpg');
+    background-color: rgba(100, 100, 100, .60);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+}
+
+#over-heading {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    font-size: 33px;
+    color: var(--bg-text-color);
+    display: block;
+    margin: auto;
+    top: 3px;
+}
+
+#home-heading {
+    font-family: 'Oswald', sans-serif;
+    font-size: 33px;
+    font-weight: 200;
+    color: var(--bg-text-color);
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    left: 1240px;
+    top: -19px;
+}
+
+#info-heading {
+    font-family: 'Oswald', sans-serif;
+    font-size: 33px;
+    font-weight: 200;
+    color: var(--bg-text-color);
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    left: 1340px;
+    top: -19px; 
+}
+
+#schedule-heading {
+    font-family: 'Oswald', sans-serif;
+    font-size: 33px;
+    font-weight: 200;
+    color: var(--bg-text-color);
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    left: 1416px;
+    top: -19px; 
+}
+
+#date-heading {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: var(--bg-text-color);
+    position: absolute;
+    left: 633px;
+    top: 179px;
+}
+
+#main-heading {
+    text-align: center;  
+    padding-top: 147px;
+    color: var(--bg-text-color);
+    font-size: 90px;  
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+}
+
+#text-hold {
+    background-color: var(--bg-line-color);
+    width: 520px;
+    height: 25px;
+    position: absolute;
+    border: none;
+    right: 510px;
+    top: 400px;
+}
+
+#loc-heading {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: var(--bg-text-color);
+    position: absolute;
+    left: 635px;
+    top: 420px;
+}
